@@ -7,13 +7,13 @@ public class lg_10 {
 	 static final int N = 40001;
 	 static int[] primes = new int[N];
 	 static boolean[] st = new boolean[N];
-	 static void count_prime()
+	 static void count_prime()//用埃氏筛  判断所有sum的里 是素数的  是素数的st[i]是false
 	 {
 			int count = 0;
-		   	for (int i = 2; i <=20007; i++) {
+		   	for (int i = 2; i <N; i++) {
 				if(st[i]) continue;
 				primes[++count] = i;
-				for (int j = i+i; j <=20007; j=j+i) {
+				for (int j = i+i; j <N; j=j+i) {
 				st[j] = true;	
 				}
 			}
