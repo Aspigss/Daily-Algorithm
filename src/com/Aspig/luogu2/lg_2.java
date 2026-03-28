@@ -3,7 +3,7 @@ package com.Aspig.luogu2;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.concurrent.CountDownLatch;
-
+//递增三元组
 public class lg_2 {
 	static int lower(int[] a,int target)
 	{
