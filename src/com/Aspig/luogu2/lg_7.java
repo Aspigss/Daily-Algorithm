@@ -1,7 +1,7 @@
 package com.Aspig.luogu2;
 
 import java.util.Scanner;
-
+//消除类游戏
 public class lg_7 {
 public static void main(String[] args) {
       int n,m;
@@ -9,7 +9,7 @@ public static void main(String[] args) {
       n=scanner.nextInt();
       m=scanner.nextInt();
       int[][] arr= new int[n][m];
-      boolean[][] del = new boolean[n][m];
+      boolean[][] del = new boolean[n][m];//要来标记要消除的数字
       for (int i = 0; i <n; i++) {
 		for (int j = 0; j <m; j++) {
 			arr[i][j]  = scanner.nextInt();
