@@ -6,6 +6,7 @@ public class lg_8 {
     {
     	int start;
     	int end;
+    	//找连续
     	for (int i = 0; i <20; i++) {
     		//求每一行的起始和终止 这样就知道每个位置的下标
 		 start = i*5+1;
