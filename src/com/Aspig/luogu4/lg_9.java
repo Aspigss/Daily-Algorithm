@@ -4,8 +4,8 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Scanner;
-//P3397 地毯
-public class lg_8 {
+//[蓝桥杯 2023 省 Java A] 棋盘
+public class lg_9{
 public static void main(String[] args) throws IOException {
 	Scanner scanner =new Scanner(System.in);
 	BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));//要用快写不然会TLE!
@@ -30,7 +30,14 @@ public static void main(String[] args) throws IOException {
 	}
     for (int i = 1; i <=n; i++) {
   		for (int j =1; j <=n; j++) {
-  			bw.write(D[i][j]+" ");
+  			if(D[i][j]%2==0)
+  			{
+  				bw.write("0");
+  			}
+  			else
+  			{
+  				bw.write("1");
+  			}
   			
   		}
   		bw.write("\n");
