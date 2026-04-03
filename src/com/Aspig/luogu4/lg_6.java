@@ -22,5 +22,6 @@ public static void main(String[] args) {
 	      ans = ans+D[i];
 	}
 	System.out.println(ans);
+	
 }
 }
