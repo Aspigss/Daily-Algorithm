@@ -1,7 +1,7 @@
 package com.Aspig.luogu4;
 
 import java.util.Scanner;
-
+//Ë®ºø
 public class lg_2 {
 public static void main(String[] args) {
 	Scanner scanner = new Scanner(System.in);
