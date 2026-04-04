@@ -9,12 +9,12 @@ public static void main(String[] args) {
       Scanner scanner = new Scanner(System.in);	
 	  int n = scanner.nextInt();
 	  int[] w = new int[2*n];
-	  for (int i = 1; i <=2*n; i++) {
+	  for (int i = 0; i <2*n; i++) {
 		w[i] = scanner.nextInt();
 	}
 	  long sum = 0;
-	  int l =1;
-	  int r = 2*n;
+	  int l =0;
+	  int r = 2*n-1;
 	  Arrays.sort(w);
      //贪心->排序之后让最小*最大 次小*次大  得到的和一定比大*大+小*小来的更小
 	  while(l<r)
@@ -24,5 +24,6 @@ public static void main(String[] args) {
 		  r--;
 	  }
          System.out.println(sum);
+     
 }
 }
