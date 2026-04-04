@@ -1,6 +1,6 @@
 package com.Aspig.luogu5;
 import java.util.Scanner;
-
+//两数之和(左右指针)
 public class lg_1 {
 public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
