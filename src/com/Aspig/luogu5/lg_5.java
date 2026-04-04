@@ -20,8 +20,9 @@ public class lg_5 {
 		{
 			r++;
 			sum+=a[r];
-			if(a[r]-a[l]>k)
+			if(a[r]-a[l]>k)//不满足条件
 			{
+				//退一步
 				sum-=a[r];
 				r--;
 				break;
