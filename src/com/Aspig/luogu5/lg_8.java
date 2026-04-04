@@ -1,7 +1,7 @@
 package com.Aspig.luogu5;
 
 import java.util.Scanner;
-
+// °¢¿ËÂü£¨Ackermann£©º¯Êı
 public class lg_8 {
 	static int f(int m,int n)
 	{
