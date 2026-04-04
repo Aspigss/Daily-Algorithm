@@ -1,7 +1,7 @@
 package com.Aspig.luogu5;
 
 import java.util.Scanner;
-
+//判断字符串是否为回文
 public class lg_2 {
     static boolean check(String s)
     {
