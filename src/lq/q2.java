@@ -12,12 +12,18 @@ public static void main(String[] args) {
 	int i =0;
      while(true)
       {
-       	  if((i*b-a+b)%a==0)
-       	  {
-       		  System.out.println(i*b-a);
-           	  break;
-       	  }
-       	  i++;
+    	 long N = i*b-a;
+    	 if((N+b)%a==0)
+    	 {
+    		 System.out.println(N);
+    		 break;
+    	 }
+//       	  if((i*b-a+b)%a==0)
+//       	  {
+//       		  System.out.println(i*b-a);
+//           	  break;
+//       	  }
+      	  i++;
        }
 }
 }
