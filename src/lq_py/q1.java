@@ -28,12 +28,12 @@ public class q1 {
 			else if(count%3==0) {
 				blood-=7;
 			}
-//        if(blood<=0)
-//        {
-//        	System.out.println(count);
-//        }
+        if(blood<=0)
+        {
+        	System.out.println(count);
+        }
 			count++;
 		}
-		System.out.println(count);
+		
 	}
 }
